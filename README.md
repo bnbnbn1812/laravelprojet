@@ -2,7 +2,7 @@
 
 Notre projet a pour base de réaliser un site ecommerce avec le framework LARAVEL afin de mettre en place plusieurs :
 
-collaborateurs :  gracieux, ilyas, jules, alexis
+collaborateurs :  gracieux, ilyass, jules, alexis
 
 _fonctionnalités attendues_ :
 *généralités*

@@ -26,4 +26,4 @@ Route::get('/',"App\http\controllers\Shop\MainController@index");
 
 //Route::get('/shop', [MainController::class, 'index']);
 
-Route::get('/produit','App\http\controllers\Shop\MainController@produit');
+Route::get('/produit/voir/{id}','App\http\controllers\Shop\MainController@produit')->name('voir_produit');

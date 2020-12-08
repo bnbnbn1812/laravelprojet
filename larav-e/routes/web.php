@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+//use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/',"App\http\controllers\Shop\MainController@index");
+
+//Route::get('/shop', [MainController::class, 'index']);
+
+Route::get('/produit','App\http\controllers\Shop\MainController@produit');

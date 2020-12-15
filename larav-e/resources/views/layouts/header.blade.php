@@ -41,21 +41,13 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Films</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Séries TV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Musique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Jeux-vidéos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sport</a>
-                </li>
+                @foreach ($categories as $category)
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">{{$category->nom}}</a>
+                    </li> 
+                @endforeach
+                
+                
             </ul>
         </div>
     </nav>

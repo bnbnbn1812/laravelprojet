@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-//use App\Http\Controllers\MainController;
+/*/use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +27,5 @@ Route::get('/',"App\http\controllers\Shop\MainController@index");
 //Route::get('/shop', [MainController::class, 'index']);
 
 Route::get('/produit/voir/{id}','App\http\controllers\Shop\MainController@produit')->name('voir_produit');
+
+Route::get('/categorie','App\http\controllers\Shop\MainController@viewByCategory');

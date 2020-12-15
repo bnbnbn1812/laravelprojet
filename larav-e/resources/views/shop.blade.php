@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="{{asset('img/favicons.png')}}">
 
-    <title>SHOP NEW MONDE</title>
+    <title> SHOP NEW MONDE </title>
 
     <!-- Bootstrap core CSS -->
 <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -27,7 +27,7 @@
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>SHOP NEW MONDE</p>
+        <p> SHOP NEW MONDE </p>
     </div>
   </footer>
 

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="{{asset('img/favicons.png')}}">
 
-    <title> SHOP NEW MONDE </title>
+    <title> SHOP NEW WORLD </title>
 
     <!-- Bootstrap core CSS -->
 <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -26,8 +26,8 @@
 
       <section class="py-5 text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">Commandez  votre <br><span class="badge badge-light">nouveau</span> <br>T-Shirt <span class="badge badge-primary ">préféré </span>!</h1>
-            <p class="lead text-muted">Dénichez THE T-Shirt de votre série, films préféré(e).</p>
+            <h1 class="jumbotron-heading"> Commandez  votre <br><span class="badge badge-light"> nouveau </span> <br> T-Shirt <span class="badge badge-primary "> préféré </span>!</h1>
+            <p class="lead text-muted"> Trouvez LE T-Shirt de votre série, film préféré(e).</p>
 
         </div>
       </section>
@@ -40,9 +40,9 @@
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#"> Back to top <i class="fas fa-arrow-circle-up"></i></a>
         </p>
-        <p>SHOP NEW MONDE</p>
+        <p> SHOP NEW WORLD </p>
     </div>
     </footer>
 

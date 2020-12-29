@@ -7,13 +7,13 @@
     <meta name="author" content="">
     <link rel="icon" href="{{asset('img/favicons.png')}}">
 
-    <title> SHOP NEW MONDE </title>
+    <title> SHOP NEW WORLD </title>
 
     <!-- Bootstrap core CSS -->
 <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{asset('css/album.css')}}" rel="stylesheet">
-    <link href={{ asset('css/tshirt.css')}} rel="stylesheet">
+    <link href={{asset('css/tshirt.css')}} rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 </head>
@@ -25,9 +25,9 @@
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#"> Back to top </a>
         </p>
-        <p> SHOP NEW MONDE </p>
+        <p> SHOP NEW WORLD </p>
     </div>
   </footer>
 

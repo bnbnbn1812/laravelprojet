@@ -48,7 +48,7 @@
                             <div class="card-body">
                                 <p class="card-text">nom du t-shirt <br>description du t-shirt </p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span class="price">29.00 €</span>
+                                    <span class="price">29.99 €</span>
                                     <a href="#" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                             <div class="card-body">
                                 <p class="card-text">nom du t-shirt <br>description du t-shirt </p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span class="price">29.00 €</span>
+                                    <span class="price">29.99 €</span>
                                     <a href="#" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                         <div class="card-body">
                             <p class="card-text">nom du t-shirt <br>description du t-shirt </p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="price">29.00 €</span>
+                                <span class="price">29.99 €</span>
                                 <a href="#" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
                             </div>
                         </div>

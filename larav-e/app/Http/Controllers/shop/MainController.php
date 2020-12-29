@@ -38,7 +38,7 @@ class MainController extends Controller
 
         public function viewByCategory(){
             //Recupere toutes les catégories; is_online == 1
-         //   $categories = Category::where('is_online',1)->get();
+         //  $categories = Category::where('is_online',1)->get();
            // dd($categories);
             
             return view('shop.categorie');

@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
+
+    public function scopeMightAlsoLike($query){
+        return $query->inRandomOrder()->take(4);
+    }
 }

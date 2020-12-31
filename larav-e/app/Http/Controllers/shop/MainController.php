@@ -31,6 +31,7 @@ class MainController extends Controller
         //dd($Request->id);
 
         $produit= Produit::find($Request->id);
+        $mightAlsoLike = Produit::where('seed','!=',$seed)->inRandomOrder()->take(4)->get();
         $categories = Category::where('is_online',1)->get();
 
        return view('shop.produit', compact('produit','categories'));

@@ -13,7 +13,8 @@ class CartController extends Controller
      */
     public function index()
     {
-        //
+        $mightAlsoLike = Produit::inRandomOrder()->take(4)->get();
+        return view('cart')->with('mightAlsoLike', $mightAlsoLike);
     }
 
     /**

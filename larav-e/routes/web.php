@@ -11,8 +11,15 @@ Route::get('/',"App\http\controllers\Shop\MainController@index");
 
 Route::get('/produit/voir/{id}','App\http\controllers\Shop\MainController@produit')->name('voir_produit');
 
-Route::get('/categorie','App\http\controllers\Shop\MainController@viewByCategory');.
+Route::get('/categorie','App\http\controllers\Shop\MainController@viewByCategory');
+
+
+
+Route::get('/cart','CartController@index')->name('cart.index');
+
 
 Route::view('/cart','cart');
+
+
 Route::view('/checkout','checkout');
 Route::view('/thankyou','thankyou');

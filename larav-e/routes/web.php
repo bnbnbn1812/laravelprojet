@@ -16,8 +16,11 @@ Route::get('/categorie','App\http\controllers\Shop\MainController@viewByCategory
 
 
 Route::get('/cart','CartController@index')->name('cart.index');
+Route::post('/cart','CartController@store')->name('cart.store');
 
-
+Route::get('empty',function (){
+    cart::destroy
+});
 Route::view('/cart','cart');
 
 
